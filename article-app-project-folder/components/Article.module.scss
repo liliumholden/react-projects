@@ -1,0 +1,34 @@
+@use "../styles/mixin.scss" as mixin;
+
+.left {
+    width: 49%;
+}
+
+.right {
+    width: 49%;
+}
+
+.h1 {
+    font-size: 3em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.description {
+    font-size:mixin.$regular-text;
+}
+
+.link {
+    color:mixin.$link-text;
+}
+
+.img {
+    max-width: 90%;
+    
+}
+
+.content_container {
+    background-color:mixin.$blue-background;
+    padding:10px;
+    display: flex;
+}
