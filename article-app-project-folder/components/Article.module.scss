@@ -1,34 +1,59 @@
-@use "../styles/mixin.scss" as mixin;
+// @use "../styles/mixin.scss" as mixin;
 
-.left {
-    width: 49%;
-}
+.root {
+    width: 100%;
 
-.right {
-    width: 49%;
-}
+    .wrapper {
+        background-color:#bbd8fa;
+        // padding:10px;
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
 
-.h1 {
-    font-size: 3em;
-    font-weight: 600;
-    text-transform: uppercase;
-}
+        .left {
+            background-color: antiquewhite;
+            width: 40%;
+            padding: 10px;
 
-.description {
-    font-size:mixin.$regular-text;
-}
+            .img {
+                width: 100%;
+                background-color: red;
+                
+                .photo {
+                    width: 100%;
+                }
+            }            
+        }
+        
+        .right {
+            width: 60%;
+            padding: 10px;
 
-.link {
-    color:mixin.$link-text;
-}
+            .h1 {
+                font-size: 3em;
+                font-weight: 600;
+                text-transform: uppercase;
+                padding: 0px;
+                margin: -10px 0 0 0 ;
+            }
+            
+            .description {
+                font-size:13px;
+            }
+            
+            .link {
+                color:#fff;
+            }            
+        }
+        
 
-.img {
-    max-width: 90%;
+        
+
     
+    }
+    
+        
+    
+
 }
 
-.content_container {
-    background-color:mixin.$blue-background;
-    padding:10px;
-    display: flex;
-}
