@@ -1,0 +1,35 @@
+// @use "../styles/mixin.scss" as mixin;
+
+.root {
+    width: 100%;
+
+    .wrapper {
+        background-color:#bbd8fa;
+        display: flex;
+        margin: 0 auto;
+
+        .left {
+            background-color: antiquewhite;
+            padding: 10px;           
+        }
+        
+        .right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+            padding: 10px;
+        
+            .h1 {
+                font-size: 3em;
+                font-weight: 600;
+                text-transform: uppercase;
+                padding: 0px;
+                margin: -10px 0 0 0;
+            }
+        
+        }
+    
+    }   
+
+}
+
