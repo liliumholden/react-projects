@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './SimpleText.module.scss'
 
-function SimpleText(props) {
+function SimpleText({ children }) {
   return (
-    <p className={styles.description}>{props.text}</p>
+    <p className={styles.description}>{children}</p>
   );
 }
 
