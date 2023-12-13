@@ -12,17 +12,14 @@ export default function () {
 
                 <div className={styles.left}>
                     <Photo src="https://cer.bo/wp-content/uploads/2023/08/Cerbo69791-min-scaled.jpg" alt="Cerbo People"></Photo>
-
                 </div>
 
                 <div className={styles.right}>
                     <h1 className={styles.h1}>People of Cerbo</h1>
 
-                    <SimpleText text="Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text "></SimpleText>
+                    <SimpleText>This component now uses children instead of props. Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text Paragraph text <br /> More text More text More text More text More text More text More text More text</SimpleText>
 
-                    <SimpleText text="More text More text More text More text More text More text More text More text"></SimpleText>
-
-                    <SimpleLink to="http://cer.bo/" text="Learn More"></SimpleLink>
+                    <SimpleLink to="http://cer.bo/">Learn More</SimpleLink>
                 </div>
             </div>
         </div>

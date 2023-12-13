@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './SimpleLink.module.scss'
 
-function SimpleLink(props) {
+function SimpleLink({ to, children }) {
   return (
-    <a className={styles.link} href={props.to}>{props.text}</a>
+    <a className={styles.link} href={to}>{children}</a>
   );
 }
 
