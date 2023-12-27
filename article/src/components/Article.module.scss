@@ -8,15 +8,14 @@
         display: flex;
         margin: 0 auto;
 
-        .left {
+        .photoside {
             background-color: antiquewhite;
             padding: 10px;           
         }
         
-        .right {
+        .textside {
             display: flex;
             flex-direction: column;
-            justify-content: space-between; 
             padding: 10px;
         
             .h1 {
@@ -28,8 +27,9 @@
             }
         
         }
-    
-    }   
+    }
 
+    &.align .wrapper {
+        flex-direction: row-reverse;
+    }  
 }
-
